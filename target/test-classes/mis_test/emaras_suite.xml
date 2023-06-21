@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+  <test name="test_login2">    
+    <classes>
+      <class name="mis_test.test_login2"/>     
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="test_login">    
+    <classes>
+      <class name="mis_test.test_login"/>     
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
