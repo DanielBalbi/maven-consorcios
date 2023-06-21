@@ -27,7 +27,7 @@ public class test_login {
 	      driver.findElement(By.name(pantallas.login_clave)).sendKeys(datos.clave);
 	      driver.findElement(By.id(pantallas.login_boton)).click();
 	   // Selecciono un consorcio
-	      driver.findElement(By.cssSelector(pantallas.Ingreso_Consorcio)).click()
+	      driver.findElement(By.cssSelector(pantallas.Ingreso_Consorcio)).click();
 	   // Una vez dentro de la pantalla de ingreso selecciono
 	   // el menu "Usuarios"
 	      driver.findElement(By.cssSelector(pantallas.Menu_Usuarios)).click();  
